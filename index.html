@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualizador de PDF</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="pdf-container">
+    <canvas id="pdf-viewer"></canvas>
+    <div id="overlay">
+      <button id="prev-page">Anterior</button>
+      <button id="next-page">Próxima</button>
+    </div>
+  </div>
+  <script src="https://unpkg.com/pdfjs-dist@2.11.338/build/pdf.min.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
