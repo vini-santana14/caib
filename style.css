@@ -1,7 +1,6 @@
 #pdf-container {
     position: relative;
     width: 70vw;
-    height: 100vh;
     margin: auto;
     overflow: hidden;
 }
