@@ -1,4 +1,4 @@
-const pdfUrl = 'Caibalion.pdf';
+const pdfUrl = 'Caibalion41p.pdf';
 const pdfViewer = document.getElementById('pdf-viewer');
 const overlay = document.getElementById('overlay');
 const prevPageBtn = document.getElementById('prev-page');
